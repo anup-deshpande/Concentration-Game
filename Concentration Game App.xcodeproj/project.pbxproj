@@ -12,6 +12,9 @@
 		099D18F022A98BC0008E9A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099D18EE22A98BC0008E9A4F /* Main.storyboard */; };
 		099D18F222A98BC2008E9A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099D18F122A98BC2008E9A4F /* Assets.xcassets */; };
 		099D18F522A98BC2008E9A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099D18F322A98BC2008E9A4F /* LaunchScreen.storyboard */; };
+		099D18FD22A98F74008E9A4F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D18FC22A98F74008E9A4F /* CardModel.swift */; };
+		099D18FF22A99242008E9A4F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D18FE22A99242008E9A4F /* Card.swift */; };
+		099D190122A99668008E9A4F /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099D190022A99668008E9A4F /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		099D18F122A98BC2008E9A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		099D18F422A98BC2008E9A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		099D18F622A98BC2008E9A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099D18FC22A98F74008E9A4F /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		099D18FE22A99242008E9A4F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		099D190022A99668008E9A4F /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				099D18EA22A98BC0008E9A4F /* AppDelegate.swift */,
 				099D18EC22A98BC0008E9A4F /* ViewController.swift */,
+				099D18FC22A98F74008E9A4F /* CardModel.swift */,
+				099D18FE22A99242008E9A4F /* Card.swift */,
+				099D190022A99668008E9A4F /* CardCollectionViewCell.swift */,
 				099D18EE22A98BC0008E9A4F /* Main.storyboard */,
 				099D18F122A98BC2008E9A4F /* Assets.xcassets */,
 				099D18F322A98BC2008E9A4F /* LaunchScreen.storyboard */,
@@ -137,6 +146,9 @@
 			files = (
 				099D18ED22A98BC0008E9A4F /* ViewController.swift in Sources */,
 				099D18EB22A98BC0008E9A4F /* AppDelegate.swift in Sources */,
+				099D18FD22A98F74008E9A4F /* CardModel.swift in Sources */,
+				099D190122A99668008E9A4F /* CardCollectionViewCell.swift in Sources */,
+				099D18FF22A99242008E9A4F /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
